@@ -1,8 +1,8 @@
-import Head from "next/head"
-import Image from "next/image"
-import Link from "next/link"
-import styles from "./layout.module.css"
-import utilStyles from "../styles/utils.module.css"
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import styles from "./layout.module.css";
+import utilStyles from "../styles/utils.module.css";
 
 const name = 'Carlos Daniel';
 export const siteTitle = 'Next.js Sample Website';
@@ -66,5 +66,5 @@ export default function Layout({ children, home }) {
         </div>
       )}
     </div>
-  )
+  );
 }
